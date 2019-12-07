@@ -4,6 +4,10 @@
 	"description": "Tool to select and run Caml functions",
 	"publisher": "Cc618",
 	"version": "0.0.2",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Cc618/Caml-Select"
+	},
 	"engines": {
 		"vscode": "^1.40.0"
 	},

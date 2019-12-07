@@ -14,7 +14,7 @@ function selectFunc () {
 	// Find the start and end of the function
 	let cursorPos = editor.document.offsetAt(editor.selection.anchor);
 	let start = data.lastIndexOf('\nlet', cursorPos) + 1;
-	let end = data.indexOf(';;', cursorPos);
+	let end = data.indexOf(';;', cursorPos) + 2;
 
 	// If function found, update selection
 	if (end != -1)
@@ -31,7 +31,7 @@ function getFunc() {
 	// Find the start and end of the function
 	let cursorPos = editor.document.offsetAt(editor.selection.anchor);
 	let start = data.lastIndexOf('\nlet', cursorPos) + 1;
-	let end = data.indexOf(';;', cursorPos);
+	let end = data.indexOf(';;', cursorPos) + 2;
 
 	// Not found
 	if (end == -1)

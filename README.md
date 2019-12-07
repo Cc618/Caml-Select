@@ -7,3 +7,8 @@ It provides two commands to select or run a Caml function.
 
 * Select Caml function
 * Run Caml function
+
+## Example
+
+![Select and run](res/video.mp4 "Select and run")
+
