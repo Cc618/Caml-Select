@@ -10,5 +10,5 @@ It provides two commands to select or run a Caml function.
 
 ## Example
 
-![Select and run](res/video.mp4 "Select and run")
+![Select and run](res/video.gif "Select and run")
 
